@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>table even/odd</title>
+	<style type="text/css">
+		table,tr,td{border: 2px dashed yellow;border-collapse: collapse;width: 30%;}
+		tr:nth-child(even){background-color: red;}
+		
+
+
+	</style>
+</head>
+<body>
+	<table>
+		<tr><td>Name</td><td>Class</td><td>subject</td></tr>
+		<tr><td>Paras</td><td>B.a</td><td>Phy</td></tr>
+		<tr><td>Tanu</td><td>M.a</td><td>Com.</td></tr>
+		<tr><td>Parul</td><td>b.sc</td><td>che</td></tr>
+	</table>
+</body>
+</html>
